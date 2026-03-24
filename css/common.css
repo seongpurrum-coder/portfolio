@@ -1540,7 +1540,7 @@ nav ul li:hover a {
   width: 100%;
 }
 
-.project-card a {
+.project-card .inner {
   display: flex;
   flex-direction: column;
   width: 100%;
