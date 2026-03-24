@@ -1601,7 +1601,9 @@ nav ul li:hover a {
   gap: 15px;
   padding-top: 18px;
 }
-
+.poject-tag{
+  display: block;
+}
 .project-tag a{
   display: block;
   align-items: center;
@@ -1619,7 +1621,7 @@ nav ul li:hover a {
   box-sizing: border-box;
 }
 
-.project-tag:hover {
+.project-tag:hover a{
   background-color: var(--point-color);
 }
 
