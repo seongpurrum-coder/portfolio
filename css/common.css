@@ -1602,7 +1602,7 @@ nav ul li:hover a {
   padding-top: 18px;
 }
 
-.project-tag {
+.project-tag a{
   display: inline-flex;
   align-items: center;
   justify-content: center;
