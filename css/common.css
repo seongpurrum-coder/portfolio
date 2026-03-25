@@ -78,7 +78,8 @@ nav ul li a {
 nav ul li:hover a {
   color: var(--point-color);
 }
-.menu_btn{
+
+.menu_btn {
   background: transparent;
   border: 0;
   margin-left: 30px;
@@ -86,22 +87,26 @@ nav ul li:hover a {
   width: 43px;
   height: 43px;
 }
+
 .menu_btn img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-  .menu2{
-    display: none;
-  }
+
+.menu2 {
+  display: none;
+}
+
 @media(max-width:1024px) {
   nav ul li a {
     font-size: 1.8rem;
     padding: 15px 25px;
   }
-.menu_btn{
-  margin-left: 20px;
-}
+
+  .menu_btn {
+    margin-left: 20px;
+  }
 }
 
 @media(max-width:768px) {
@@ -114,13 +119,15 @@ nav ul li:hover a {
     display: none;
   }
 
-  .menu1{
+  .menu1 {
     display: none;
   }
-  .menu2{
+
+  .menu2 {
     display: block;
   }
-  .menu_btn{
+
+  .menu_btn {
     width: 40px;
     height: 40px;
   }
@@ -135,7 +142,7 @@ nav ul li:hover a {
     font-size: 1.6rem;
   }
 
-  .menu_btn{
+  .menu_btn {
     width: 30px;
     height: 30px;
   }
@@ -608,102 +615,78 @@ nav ul li:hover a {
 }
 
 
-@media(max-width:1650px){
-  .project-text{
+@media(max-width:1650px) {
+  .project-text {
     gap: 5px;
   }
+
   .menu-project-list li {
     display: block;
   }
-    .project-tags{
-      padding-left: 15px;
-      padding-top: 5px;
-    }
-}
-@media (max-width: 0px) {
-  .menu-inner {
-    padding: 50px 25px 25px;
-    gap: 0px;
-    margin-top: 45px;
-  }
 
-  .menu-close {
-    width: 25px;
-    top: 50px;
-    right: 25px;
+  .project-tags {
+    padding-left: 15px;
+    padding-top: 5px;
   }
 
   .menu-left {
-    width: 34%;
-    padding-top: 28px;
+    width: 80%;
   }
 
-  .menu-left ul {
-    gap: 34px;
+  .menu-left li a {
+    font-size: 5rem;
   }
 
+  .menu-left li.active a {
+    font-size: 7rem;
+  }
+}
+
+@media(max-width:1024px){
+  .menu-left li a {
+    font-size: 4.5rem;
+  }
+
+  .menu-left li.active a {
+    font-size: 6.5rem;
+  }
+  .menu-inner{
+    padding: 70px 70px;
+  }
+  .menu-close{
+    width: 24px;
+    right: 50px;
+  }
+  .menu-left ul{
+    gap: 30px;
+  }
   .menu-left li a {
     font-size: 3rem;
   }
 
   .menu-left li.active a {
-    font-size: 4rem;
-  }
-
-  .menu-right {
-    padding-top: 28px;
-  }
-
-  .menu-project-list {
-    gap: 20px;
-  }
-
-  .menu-project-list li {
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .project-text {
-    width: 62%;
-    padding-left: 13px;
-    gap: 4px;
-  }
-
-  .project-text::before {
-    width: 6px;
-    height: 6px;
-    top: 9px;
-  }
-
-  .project-text .title {
-    font-size: 1.7rem;
-    white-space: wrap;
-  }
-
-  .project-text .desc {
-    font-size: 1.4rem;
-  }
-
-  .project-tags {
-    width: 38%;
-    gap: 20px;
-    justify-content: flex-start;
-  }
-
-  .project-tags.tag1 {
-    gap: 20px;
-  }
-
-  .project-tags span a {
-    font-size: 1.25rem;
-    padding: 5.5px 10.5px;
-    border-radius: 999px;
+    font-size:5rem;
   }
 }
 
+@media(max-width:768px){
+   .menu-inner{
+    flex-direction: column;
+   }
+   .menu-left ul{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 18px;
+    padding-top: 0;
+   }
+   .menu-left{
+    padding-top: 0;
+    padding-bottom: 30px;
+   }
+}
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
   .menu-wrap {
     overflow-y: auto;
   }
@@ -738,7 +721,7 @@ nav ul li:hover a {
     flex-wrap: nowrap;
     align-items: center;
     gap: 18px;
-    padding-top: 50px;
+    padding-top: 30px;
   }
 
   .menu-left li a {
@@ -1314,10 +1297,12 @@ nav ul li:hover a {
   .about-layout {
     flex-direction: column;
   }
-  .about-script{
+
+  .about-script {
     text-align: center;
     font-size: 6rem;
   }
+
   .about-script span {
     font-size: 4rem;
   }
@@ -1327,10 +1312,11 @@ nav ul li:hover a {
 
 
 @media (max-width: 390px) {
-    .about-name{
-      padding-bottom: 30px;
-      text-align: center;
-    }
+  .about-name {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
   .about-layout {
     gap: 60px;
   }
@@ -1605,10 +1591,12 @@ nav ul li:hover a {
   gap: 15px;
   padding-top: 18px;
 }
-.poject-tag{
+
+.poject-tag {
   display: block;
 }
-.project-tag a{
+
+.project-tag a {
   display: block;
   align-items: center;
   justify-content: center;
@@ -1625,7 +1613,7 @@ nav ul li:hover a {
   box-sizing: border-box;
 }
 
-.project-tag:hover a{
+.project-tag:hover a {
   background-color: var(--point-color);
 }
 
