@@ -642,7 +642,7 @@ nav ul li:hover a {
   }
 }
 
-@media(max-width:1024px){
+@media(max-width:1024px) {
   .menu-left li a {
     font-size: 4.5rem;
   }
@@ -650,46 +650,53 @@ nav ul li:hover a {
   .menu-left li.active a {
     font-size: 6.5rem;
   }
-  .menu-inner{
+
+  .menu-inner {
     padding: 70px 70px;
   }
-  .menu-close{
+
+  .menu-close {
     width: 24px;
     right: 50px;
   }
-  .menu-left ul{
+
+  .menu-left ul {
     gap: 30px;
   }
+
   .menu-left li a {
     font-size: 3rem;
   }
 
   .menu-left li.active a {
-    font-size:5rem;
+    font-size: 5rem;
   }
 }
 
-@media(max-width:768px){
-   .menu-inner{
+@media(max-width:768px) {
+  .menu-inner {
     flex-direction: column;
-   }
-   .menu-left ul{
+  }
+
+  .menu-left ul {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     gap: 18px;
     padding-top: 0;
-   }
-   .menu-left{
+  }
+
+  .menu-left {
     padding-top: 0;
     padding-bottom: 30px;
-   }
+  }
 }
 
 @media (max-width: 650px) {
-      .menu-left{
-        padding-bottom: 50px;
-      }
+  .menu-left {
+    padding-bottom: 50px;
+  }
+
   .menu-wrap {
     overflow-y: auto;
   }
@@ -1658,8 +1665,9 @@ nav ul li:hover a {
     row-gap: 35px;
   }
 }
-@media(max-width:1024px){
-  .project-info{
+
+@media(max-width:1024px) {
+  .project-info {
     padding: 25px 23px;
   }
 }
@@ -1691,10 +1699,12 @@ nav ul li:hover a {
     font-size: 1.3rem;
     letter-spacing: 1;
   }
-.project-tag a{
-  padding: 6px 11px;
-  font-size: 1.6rem;
-}
+
+  .project-tag a {
+    padding: 6px 11px;
+    font-size: 1.6rem;
+  }
+
   .project-ui {
     margin-top: 70px;
   }
@@ -2245,7 +2255,7 @@ nav ul li:hover a {
 }
 
 
-@media(max-width:390px) {
+@media(max-width:420px) {
   #contact-bottom {
     padding: 60px 0 38px;
   }
@@ -2319,7 +2329,6 @@ nav ul li:hover a {
     width: 15px;
     height: auto;
   }
-
   .contact-card-text {
     font-size: 1.4rem;
   }
