@@ -1986,7 +1986,7 @@ nav ul li:hover a {
   }
 }
 
-@media(max-width:390px) {
+@media(max-width:420px) {
   #contact-top {
     padding: 100px 0;
   }
