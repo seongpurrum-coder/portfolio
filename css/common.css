@@ -425,7 +425,7 @@ nav ul li:hover a {
   .uxui_wrap {
     width: 50px;
     height: 50px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .home-title {
@@ -437,7 +437,7 @@ nav ul li:hover a {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 420px) {
   #home .home-line {
     height: 1px;
   }
@@ -452,7 +452,7 @@ nav ul li:hover a {
   .uxui_wrap {
     width: 45px;
     height: 45px;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .home-title {
@@ -1641,7 +1641,7 @@ nav ul li:hover a {
   }
 
   .project-tag {
-    padding: 7px 13px;
+    padding: 0px;
     font-size: 1.5rem;
   }
 
@@ -1650,7 +1650,7 @@ nav ul li:hover a {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 
   .project-list {
     grid-template-columns: repeat(2, 1fr);
@@ -1658,7 +1658,11 @@ nav ul li:hover a {
     row-gap: 35px;
   }
 }
-
+@media(max-width:1024px){
+  .project-info{
+    padding: 25px 23px;
+  }
+}
 
 @media (max-width: 768px) {
   #project {
@@ -1679,15 +1683,18 @@ nav ul li:hover a {
   }
 
   .project-tag-list {
-    gap: 10px;
+    gap: 12px;
   }
 
   .project-tag {
-    padding: 6px 11px;
+    padding: 0px;
     font-size: 1.3rem;
     letter-spacing: 1;
   }
-
+.project-tag a{
+  padding: 5px 10px;
+  font-size: 1.6rem;
+}
   .project-ui {
     margin-top: 70px;
   }
