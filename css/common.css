@@ -695,7 +695,7 @@ nav ul li:hover a {
 
 @media (max-width: 650px) {
   .menu-left {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 
   .menu-wrap {
@@ -732,7 +732,7 @@ nav ul li:hover a {
     flex-wrap: nowrap;
     align-items: center;
     gap: 18px;
-    padding-top: 30px;
+    padding-top: 20px;
   }
 
   .menu-left li a {
