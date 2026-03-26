@@ -1326,7 +1326,7 @@ nav ul li:hover a {
 
   .about-script {
     text-align: center;
-    font-size: 6rem;
+    font-size: 8rem;
   }
 
   .about-script span {
@@ -1337,7 +1337,7 @@ nav ul li:hover a {
 
 
 
-@media (max-width: 420px) {
+@media (max-width: 390px) {
   .about-name {
     padding-bottom: 30px;
     text-align: center;
@@ -1349,7 +1349,8 @@ nav ul li:hover a {
 
   .about-script {
     font-size: 5rem;
-    text-align: initial;
+    text-align: center;
+    margin-right: 60px;
   }
 
   .about-script span {
@@ -1358,7 +1359,6 @@ nav ul li:hover a {
 
   .about-image-box {
     width: 78%;
-    right: 5px;
   }
 
   .about-name-ko {
