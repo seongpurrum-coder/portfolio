@@ -463,6 +463,7 @@ nav ul li:hover a {
   .home-script {
     font-size: 4rem;
     padding-bottom: 15px;
+    margin-right: 5px;
   }
 }
 
@@ -644,12 +645,18 @@ nav ul li:hover a {
 }
 
 @media(max-width:1024px) {
+  .project-text::before{
+    top: 10%;
+  }
+  .title.btfa{
+    white-space: wrap;
+  }
   .menu-left li a {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .menu-left li.active a {
-    font-size: 6.5rem;
+    font-size: 5rem;
   }
 
   .menu-inner {
@@ -662,22 +669,33 @@ nav ul li:hover a {
   }
 
   .menu-left ul {
-    gap: 30px;
+    gap: 25px;
   }
 
-  .menu-left li a {
-    font-size: 3rem;
+  .project-text .desc {
+    font-size: 1.8rem;
   }
 
-  .menu-left li.active a {
-    font-size: 5rem;
+  .project-text .title {
+    font-size: 2.1rem;
+  }
+
+  .project-tags.tag1 {
+    gap: 20px;
+  }
+
+  .menu-close {
+    right: 70px;
+  }
+
+  .project-tags span a {
+    padding: 5px 10px;
   }
 }
 
-@media(max-width:768px) {
-  .menu-inner {
-    flex-direction: column;
-  }
+
+
+@media (max-width: 650px) {
 
   .menu-left ul {
     flex-direction: row;
@@ -687,13 +705,6 @@ nav ul li:hover a {
     padding-top: 0;
   }
 
-  .menu-left {
-    padding-top: 0;
-    padding-bottom: 30px;
-  }
-}
-
-@media (max-width: 650px) {
   .menu-left {
     padding-bottom: 20px;
   }
@@ -713,7 +724,7 @@ nav ul li:hover a {
 
   .menu-close {
     width: 20px;
-    top: 35px;
+    top: 45px;
     right: 4%;
   }
 
@@ -732,7 +743,7 @@ nav ul li:hover a {
     flex-wrap: nowrap;
     align-items: center;
     gap: 18px;
-    padding-top: 20px;
+    padding-top: 0;
   }
 
   .menu-left li a {
@@ -747,7 +758,7 @@ nav ul li:hover a {
   }
 
   .menu-project-list {
-    gap: 25px;
+    gap: 30px;
   }
 
   .menu-project-list li {
@@ -788,13 +799,17 @@ nav ul li:hover a {
 
   .project-tags span a {
     font-size: 1.25rem;
-    padding: 5.5px 10.5px;
+    padding: 6px 11px;
     border-radius: 999px;
   }
 }
 
 
-
+@media(max-width:360px){
+      .menu-left{
+        padding-top: 50px;
+      }
+}
 
 
 
@@ -1311,7 +1326,7 @@ nav ul li:hover a {
 
   .about-script {
     text-align: center;
-    font-size: 6rem;
+    font-size: 7rem;
   }
 
   .about-script span {
@@ -1319,10 +1334,7 @@ nav ul li:hover a {
   }
 }
 
-
-
-
-@media (max-width: 420px) {
+@media (max-width: 390px) {
   .about-name {
     padding-bottom: 30px;
     text-align: center;
@@ -1334,7 +1346,7 @@ nav ul li:hover a {
 
   .about-script {
     font-size: 5rem;
-    text-align: unset;
+    text-align: center;
   }
 
   .about-script span {
@@ -1343,6 +1355,7 @@ nav ul li:hover a {
 
   .about-image-box {
     width: 78%;
+    margin: auto;
   }
 
   .about-name-ko {
@@ -1378,7 +1391,6 @@ nav ul li:hover a {
   }
 
   .about-main {
-    align-items: end;
     width: 100%;
   }
 }
@@ -1993,7 +2005,7 @@ nav ul li:hover a {
   }
 
   #contact-top h2 {
-    line-height: 220%;
+    line-height: 200%;
   }
 }
 
@@ -2003,11 +2015,11 @@ nav ul li:hover a {
   }
 
   #contact-top h2 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
   }
 
   #contact-top h2 span {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   .name-circle {
@@ -2330,6 +2342,7 @@ nav ul li:hover a {
     width: 15px;
     height: auto;
   }
+
   .contact-card-text {
     font-size: 1.4rem;
   }
